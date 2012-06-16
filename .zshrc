@@ -88,7 +88,6 @@ alias ta="tmux attach"
 alias tw='tmux list-windows'
 alias screen='$HOME/bin/screen/src/screen'
 alias lf='ls -FA'
-alias watson='ssh soh.i@watson.bioinfo.i.ttck.keio.ac.jp'
 alias emacs='emacs -nw'
 alias mv='mv -i'
 alias screenkill="ps ax | grep SCREEN | awk '{print $1}' | xargs kill"
@@ -97,13 +96,7 @@ alias ks='ls'
 alias cd..='cd ..'
 alias kess='less'
 alias lc='lv'
-alias www='ssh t07122ko@www.iab.keio.ac.jp'
-alias ttck='ssh soh.i@cs0.bioinfo.ttck.keio.ac.jp'
 alias desk='cd $HOME/Desktop'
-alias cacao='ssh soh.i@cacao.bioinfo.ttck.keio.ac.jp'
-alias smith6='ssh soh.i@smith6.bioinfo.i.ttck.keio.ac.jp'
-alias smith7='ssh soh.i@smith7.bioinfo.i.ttck.keio.ac.jp'
-alias cns='ssh t10078si@ccz00.sfc.keio.ac.jp'
 alias ll='ls -l -F'
 
 ## cd

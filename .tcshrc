@@ -41,7 +41,6 @@ alias screenkill "ps ax | grep SCREEN | awk '{print $1}' | xargs kill"
 alias finger '/home/soh.i/bin/finger'
 alias sl 'ls'
 alias ks 'ls'
-alias cd.. 'cd ..'
 alias kess 'less'
 alias lc 'lv'
 alias logout 'exit'

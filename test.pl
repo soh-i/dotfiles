@@ -23,5 +23,8 @@ while (my $file = <$fh>) {
     $blast->{$query}->{subject_end}   = $se;
     $blast->{$query}->{e_value}       = $e_value;
     $blast->{$query}->{bit_score}     = $bit;
+
 }
+
+print Dumper $blast;
 

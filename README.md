@@ -1,4 +1,3 @@
-work
+設定ファイル
 ====
-
-##config file
+## zsh/tcsh/emacs

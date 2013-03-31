@@ -1,0 +1,4 @@
+[NCBI]
+Data=/db/blast/executables/blast-2.2.17/data/
+[BLAST]
+BLASTDB=/home/soh.i/db/

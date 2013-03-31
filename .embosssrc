@@ -1,0 +1,17 @@
+DB swissprot [
+  type: P
+  format: swiss
+  method: url
+  dbalias: SWISSPROT
+  url: "http://rest.g-language.org/togoWS/%s"
+  comment: "Entry retrieval via TogoWS REST Service and G-language REST Service"
+]
+
+DB refseq [
+  type: N
+  format: genbank
+  method: url
+  dbalias: REFSEQ
+  url: "http://rest.g-language.org/togoWS/%s/-format/fasta"
+  comment: "Entry retrieval via TogoWS REST Service and G-language REST Service"
+]

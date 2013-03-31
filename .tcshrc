@@ -1,0 +1,64 @@
+#source ~/perl5/perlbrew/etc/cshrc
+
+#config
+set color
+set rmstar
+set implicitcd = verbose
+set colorcat
+set history = 1000000
+set savehist = (1000000 merge)
+set histfile = ~/.tcsh_history
+unset autologout
+set complete = enhance
+bindkey "\t" complete-word-fwd
+set autocorrect
+set autoexpand
+set fignore=(.psq .psi .psd .phr .pin .nin .nsq .nhr .fai .ann .pac)
+set prompt = "%U@%m >> "
+set rprompt="[%/]"
+limit coredumpsize 0
+set ignoreeof
+set colorcat
+setenv BLOCKSIZE G
+setenv PAGER less
+set notify
+set nobeep
+complete cd 'p/1/d/'
+setenv LESS -r
+setenv EDITOR emacs
+
+#Alias
+alias ta "tmux attach"
+alias tw 'tmux list-windows'
+#alias emacs '~/bin/bin/emacs-21.4 -nw'
+alias ls 'ls -tF --color'
+alias lf 'ls -FA'
+alias 7 'ssh smith7'
+alias 6 'ssh smith6'
+alias 5 'ssh smith5'
+alias watson 'ssh soh.i@watson.bioinfo.i.ttck.keio.ac.jp'
+alias yucca 'ssh yucca'
+alias grep 'grep --color'
+alias emacs 'emacs -nw'
+alias c 'clear'
+alias rm '/home/soh.i/bin/trash.sh'
+alias mv 'mv -i'
+alias screenkill "ps ax | grep SCREEN | awk '{print $1}' | xargs kill"
+alias finger '/home/soh.i/bin/finger'
+alias sl 'ls'
+alias ks 'ls'
+alias cd.. 'cd ..'
+alias kess 'less'
+alias lc 'lv'
+alias logout 'exit'
+alias www 'ssh t07122ko@www.iab.keio.ac.jp'
+
+alias dstat-full 'dstat -Tclmdrn'
+alias dstat-mem 'dstat -Tclm'
+alias dstat-cpu 'dstat -Tclr'
+alias dstat-net 'dstat -Tclnd'
+alias dstat-disk 'dstat -Tcldr'
+
+## Perlbrew and Local::lib
+setenv PATH "/home/soh.i/bin/bin:$PATH"
+
